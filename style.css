@@ -1,0 +1,72 @@
+*, *:before, *:after {
+     box-sizing: border-box;
+}
+
+body {
+  background: rgba(73, 186, 126, 1);
+}
+
+form {
+  width: 50%;
+}
+
+.name, .email {
+   border: 1px solid rgba(225, 225, 225, 0.7);
+   border-radius: 5px;
+   background: transparent;
+   padding: 10px;
+   width: 45%;
+   color: rgba(73, 186, 126, .5);
+   margin-bottom: 10px;
+ }
+
+ .email {
+   float: right;
+ }
+
+ .name {
+   float: left;
+ }
+
+.message {
+   display: block;
+   width: 100%;
+   margin: 10px auto;
+   background: rgba(73, 186, 126, 1);
+   border: 1px solid rgba(225, 225, 225, 0.7);
+   border-radius: 5px;
+   padding-top: 10px;
+   padding-left: 10px;
+ }
+
+.submit {
+  background: #FFF;
+  border: none;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  color: rgba(73, 186, 126, 1);
+  font-family: sans-serif;
+  border-radius: 5px;
+  margin: 10px auto 0 auto;
+  display: block;
+}
+
+.submit:hover {
+  cursor:pointer;
+}
+
+::-webkit-input-placeholder {
+   color: rgba(225, 225, 225, 0.7);
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: rgba(225, 225, 225, 0.7);
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: rgba(225, 225, 225, 0.7);
+}
+
+:-ms-input-placeholder {
+   color: rgba(225, 225, 225, 0.7);
+}
